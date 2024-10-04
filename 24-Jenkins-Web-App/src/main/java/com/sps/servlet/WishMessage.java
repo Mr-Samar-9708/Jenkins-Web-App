@@ -18,7 +18,7 @@ public class WishMessage extends HttpServlet {
 		PrintWriter pw = res.getWriter();
 		res.setContentType("text/html");
 		
-		pw.print("<center><h1 style='color : red'>Hello, Good Morning</h1>");
+		pw.print("<center><h1 style='color : red'>Hello, Good Morning Samar Pratap Singh</h1>");
 		pw.print("<br><br><a href='index.jsp'>Home</a></center>");
 		
 		pw.close();
