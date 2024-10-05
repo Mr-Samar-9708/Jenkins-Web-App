@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class WishMessageApp {
 
-	@Bean
+	@Bean("localDateTime")
 	LocalDateTime createLdt() {
 		return LocalDateTime.now();
 	}
