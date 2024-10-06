@@ -23,7 +23,7 @@ public class WishMessage {
 		String msg = null;
 
 		if (hour >= 0 && hour < 12) {
-			msg = "Good morning " + name + " sir!...";
+			msg = "Good morning " + name + " sir, How can I help you sir !...";
 		} else if (hour >= 12 && hour < 17) {
 			msg = "Good afternoon " + name + " sir!...";
 		} else if (hour >= 17 && hour < 19) {
