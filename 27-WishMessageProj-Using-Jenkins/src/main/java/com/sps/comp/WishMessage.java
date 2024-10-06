@@ -25,11 +25,11 @@ public class WishMessage {
 		if (hour >= 0 && hour < 12) {
 			msg = "Good morning " + name + " sir, How can I help you sir !...";
 		} else if (hour >= 12 && hour < 17) {
-			msg = "Good afternoon " + name + " sir!...";
+			msg = "Good afternoon " + name + " sir, How can I help you sir !...";
 		} else if (hour >= 17 && hour < 19) {
-			msg = "Good evening " + name + " sir!...";
+			msg = "Good evening " + name + " sir, How can I help you sir !...";
 		} else {
-			msg = "Good night " + name + " sir!...";
+			msg = "Good night " + name + " sir, How can I help you sir !...";
 		}
 		return new ResponseEntity<>(msg, HttpStatus.OK);
 	}
